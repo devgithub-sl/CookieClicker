@@ -156,7 +156,7 @@ class CookieMain {
             if (!grandpaUnlocked && cookieCounter >= 100) {
                 grandpaUnlocked = true
                 button2.text = "Grandpa ($grandpaNumber)"
-                button2.actionCommand = "Grandpa" // ✅ FIXED: ActionCommand added
+                button2.actionCommand = "Grandpa" 
             }
         }
     }
